@@ -12,6 +12,12 @@ get_prop(untrusted_app_29, debug_mtk_gpud_prop)
 get_prop(untrusted_app_30, debug_mtk_gpud_prop)
 get_prop(untrusted_app_32, debug_mtk_gpud_prop)
 
+allow untrusted_app ion_device:chr_file rw_file_perms;
+allow untrusted_app_27 ion_device:chr_file rw_file_perms;
+allow untrusted_app_29 ion_device:chr_file rw_file_perms;
+allow untrusted_app_30 ion_device:chr_file rw_file_perms;
+allow untrusted_app_32 ion_device:chr_file rw_file_perms;
+
 # Address misc denials
 allow untrusted_app shell_test_data_file:dir { search };
 allow untrusted_app_27 zygote:unix_stream_socket { getopt };

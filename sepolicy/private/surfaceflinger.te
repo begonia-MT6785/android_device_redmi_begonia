@@ -1,0 +1,2 @@
+# open/read/write/ioctl/map which ION needs.
+allow system_app ion_device:chr_file rw_file_perms;

@@ -1,0 +1,2 @@
+# rw_file_perms includes open/read/write/ioctl/map which ION needs.
+allow mediacodec ion_device:chr_file rw_file_perms;
