@@ -1,1 +1,4 @@
 binder_call(system_app, storaged)
+
+# device access (/dev/alarm is labeled rtc_device).
+allow system_app rtc_device:chr_file rw_file_perms;
