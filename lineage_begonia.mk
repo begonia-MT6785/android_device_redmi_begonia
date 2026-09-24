@@ -18,21 +18,6 @@ $(call inherit-product, device/redmi/begonia/device.mk)
 # Inherit some common lineage stuff
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
-# Lunaris Specific Flags
-LUNARIS_BUILD_TYPE := UNOFFICIAL
-WITH_GMS := true
-WITH_GMS_COMMS_SUITE := false
-TARGET_SUPORTS_GOOGLE_TELEPHONY := false
-TARGET_USE_GPHOTOS := false
-TARGET_OPTIMIZED_DEXOPT := true
-TARGET_SUPORTS_OMX_SERVICE := true
-TARGET_FORCE_ENABLE_BLUR := true
-TARGET_USES_GSANS := true
-TARGET_SUPPORTS_QUICK_TAP := true
-USE_ADVANCED_DISPLAY_COLOR := true
-PERF_ANIM_OVERRIDE := true
-SURFACE_FLINGER_BOOST := true
-
 # MiuiCamera
 $(call inherit-product-if-exists, vendor/MiuiCameraLeica/config.mk)
 
