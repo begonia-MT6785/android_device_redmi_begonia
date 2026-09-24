@@ -109,7 +109,6 @@ PRODUCT_PACKAGES += \
     android.hardware.graphics.composer@2.1-resources \
     android.hardware.graphics.composer@2.1-resources.vendor \
     android.hardware.memtrack-service.mediatek-mali \
-    libion.vendor \
     libui.vendor \
     libdrm.vendor \
     libvulkan \

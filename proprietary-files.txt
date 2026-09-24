@@ -1659,6 +1659,7 @@ vendor/lib/libimageio_plat_drv.so
 vendor/lib/libimageio_plat_pipe.so
 vendor/lib/libimgsensorca.so
 vendor/lib/libimsg_log.so
+vendor/lib/libion.so
 vendor/lib/libion_mtk.so
 vendor/lib/libion_ulit.so
 vendor/lib/libipsec_ims_shr.so
@@ -1859,6 +1860,7 @@ vendor/lib64/libimageio_plat_drv.so
 vendor/lib64/libimageio_plat_pipe.so
 vendor/lib64/libimgsensorca.so
 vendor/lib64/libimsg_log.so
+vendor/lib64/libion.so
 vendor/lib64/libion_mtk.so
 vendor/lib64/libion_ulit.so
 vendor/lib64/libipsec_ims_shr.so
@@ -1888,6 +1890,7 @@ vendor/lib64/libnvram_daemon_callback.so
 vendor/lib64/libnvram_platform.so
 vendor/lib64/libnvram_sec.so
 vendor/lib64/libnwk_opt_halwrap_vendor.so
+vendor/lib64/libperfmgr.so
 vendor/lib64/libpixelflinger.so
 vendor/lib64/libpq_cust_base.so
 vendor/lib64/libpq_prot.so
