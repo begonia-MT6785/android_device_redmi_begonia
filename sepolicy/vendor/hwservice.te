@@ -3,3 +3,6 @@ type hal_dms_hwservice, hwservice_manager_type;
 
 # NFC
 type nxpnfc_hwservice, hwservice_manager_type;
+
+# Xiaomi DisplayFeature
+type vendor_xiaomi_displayfeature_hwservice, hwservice_manager_type;

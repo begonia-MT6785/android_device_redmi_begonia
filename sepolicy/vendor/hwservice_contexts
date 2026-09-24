@@ -31,3 +31,6 @@ vendor.mediatek.hardware.camera.frhandler::IFRHandler u:object_r:hal_camera_hwse
 vendor.nxp.hardware.nfc::INqNfc                                               u:object_r:nxpnfc_hwservice:s0
 vendor.nxp.nxpese::INxpEse                                                    u:object_r:nxpnfc_hwservice:s0
 vendor.nxp.nxpnfc::INxpNfc                                                    u:object_r:nxpnfc_hwservice:s0
+
+# Xiaomi DisplayFeature
+vendor.xiaomi.hardware.displayfeature::IDisplayFeature   u:object_r:vendor_xiaomi_displayfeature_hwservice:s0
