@@ -1,0 +1,3 @@
+allow mediaserver ion_device:chr_file rw_file_perms;
+
+allow crash_dump ion_device:chr_file rw_file_perms;
